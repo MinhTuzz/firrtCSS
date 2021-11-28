@@ -1,0 +1,51 @@
+#ball1{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 150px;
+    border-radius: 100px;
+}
+#ball2{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    border-radius: 100px;
+}
+#Bbody{
+    width: 300px;
+    height: 120px;
+    background-color: black;
+    transition:1s;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 30px;
+}
+#Bbody:hover{
+    width: 700px;
+    height: 122px;
+}
+#elip-left{
+    width: 50px;
+    height: 200px;
+    background-color: pink;
+    position: absolute;
+    top:40px;
+    left: 300px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px; 
+}
+#inside{
+    width: 800px;
+    height: 200px;
+    background-color: pink;
+    position: absolute;
+    top:40px;
+    left: 340px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px; 
+    opacity: 0.4;
+}
