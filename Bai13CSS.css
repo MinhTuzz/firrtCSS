@@ -19,24 +19,41 @@
     width: 300px;
     height: 120px;
     background-color: black;
+    position: absolute;
     transition:1s;
     border-top-left-radius: 20px;
     border-top-right-radius: 120px;
     border-bottom-right-radius: 30px;
+    z-index: 5;
 }
 #Bbody:hover{
     width: 700px;
     height: 122px;
+    z-index: 5;
 }
 #elip-left{
-    width: 50px;
+    width: 40px;
     height: 200px;
     background-color: pink;
     position: absolute;
     top:40px;
     left: 300px;
+    border:1px solid palevioletred;
     border-top-left-radius: 200px;
     border-bottom-left-radius: 200px; 
+    z-index: 0;
+}
+#elip-right{
+    width: 40px;
+    height: 200px;
+    background-color: pink;
+    position: absolute;
+    top:40px;
+    left: 340px;
+    border:1px solid palevioletred;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px; 
+    z-index: 6;
 }
 #inside{
     width: 800px;
